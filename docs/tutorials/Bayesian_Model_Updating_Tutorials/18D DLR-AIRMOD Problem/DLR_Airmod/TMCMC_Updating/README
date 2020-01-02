@@ -1,0 +1,18 @@
+===================
+ TABLE OF CONTENTS
+===================
+
+problemA_25_samples.m     the main file
+
+problemA_tmcmc.m          this is the (general) TMCMC I sent you before (available in the folder /home/dalvarez/challenge/tmcmc)
+                          modified for the sake of problem A. The modification is that the proposal PDF of the Markov Chain
+                          is a TRUNCATED Multivariate Gaussian (so that we can respect the bounds on the parameters)
+
+problemA_log_p_D_theta.m  the likelihood
+
+problemA_p_theta_pdf.m    the prior PDF (a uniform PDF)
+
+problemA_p_theta_rnd.m    a function that samples realizations from the prior PDF (that is from a uniform PDF)
+
+myrand.m                  the one Matteo provided me (for circumventing the problem with the RNG).
+
